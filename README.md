@@ -184,8 +184,6 @@ docker run --rm my-python-app:test
 
 Вы увидите вывод: `Hello from my Python app!`
 
-![Hello from my Python app!](/content/DevOps/CI_CD/img/2_workflow.png)
-
 Опционально вы можете зайти в созданный вами контейнер для ознакомления
 ```shell
 docker run --rm -it my-python-app:test /bin/bash
